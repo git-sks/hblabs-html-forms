@@ -34,47 +34,47 @@
         <h2>Order Form</h2>
 
         <form>
-            <label>Your name</label>
-            <input type="text" name="name">
+            <label for="input-name">Your name</label><br>
+            <input type="text" name="name" id="input-name">
         </form>
-
+        <p></p>
         <form>
-            <label>Who are we sending this to?</label>
-            <input type="text" name="recipient">
+            <label for="input-recipient">Who are we sending this to?</label><br>
+            <input type="text" name="recipient" id="input-recipient">
         </form>
-
+        <p></p>
         <form>
-            Choose a melon
+            Choose a melon<br>
             <select name="melon">
                 <option value="watermelon">Watermelon</option>
                 <option value="canteloupe">Canteloupe</option>
                 <option value="honeydew">Honeydew</option>
             </select>
         </form>
-
+        <p></p>
         <form>
-            When should we deliver?
-            <input type="radio" name="time" value="am">
-            <label>Morning</label>
+            When should we deliver?<br>
+            <input type="radio" name="time" value="am" id="am">
+            <label for="am">Morning</label>
 
-            <input type="radio" name="time" value="pm">
-            <label>Evening</label>
+            <input type="radio" name="time" value="pm" id="pm">
+            <label for="pm">Evening</label>
 
-            <input type="radio" name="time" value="any">
-            <label>Any time</label>
+            <input type="radio" name="time" value="any" id="any">
+            <label for="any">Any time</label>
         </form>
-
+        <p></p>
         <form>
             Enter your message:<br>
             <textarea name="message"></textarea>
         </form>
-
+        <p></p>
         <form>
             Subscribe to our newsletter<br>
             <input type="checkbox" name="subscribe" value="yes">
             <label>Yes</label>
         </form>
-
+        <p></p>
         <form>
             <button type="submit">Submit</button>
         </form>
